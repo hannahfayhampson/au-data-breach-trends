@@ -37,9 +37,13 @@ Start with these. They map directly to the project questions.
 | `total_notifications` | `all` | 1. Trend over time |
 | `breaches_by_source` | `malicious_or_criminal_attack`, `human_error`, `system_fault` | 2. Causes |
 | `malicious_breakdown` | `cyber_incident`, `theft_of_paperwork_or_storage_device`, `social_engineering_or_impersonation`, `rogue_employee_or_insider` | 2. Causes |
+| `cyber_incident_breakdown` | `phishing`, `ransomware`, `compromised_or_stolen_credentials_unknown_method`, `hacking`, `brute_force_attack`, `malware`, `other` | 2. Causes |
 | `top_sectors` | `health_service_providers`, `finance`, `education`, `retail`, `australian_government` | 3. Sectors |
-| `time_to_identify` | `under_10_days`, `11_to_30_days`, `31_to_60_days`, `61_to_120_days`, `over_120_days`, `unknown` | 4. Response |
-| `time_to_notify` | same groupings as above | 4. Response |
+| `sector_by_source` | sector name, with the source (`malicious_or_criminal_attack`, `human_error`, `system_fault`) in `subcategory` | 3. Sectors |
+| `time_to_identify` | use the bands exactly as the report's chart shows them, e.g. `10_days_or_less`, `11_to_20_days`, `21_to_30_days`, `over_30_days`, `unknown` | 4. Response |
+| `time_to_notify` | same as above (Jul–Dec 2024 bands: `10_days_or_less`, `11_to_20_days`, `21_to_30_days`, `over_30_days`, `unknown`) | 4. Response |
+
+Time bands are reported as **percentages**, so set `unit` to `percent` for those rows.
 
 ## Tips 💅
 

@@ -1,1 +1,21 @@
 period_start,period_end,frequency,metric,category,subcategory,value,unit,source_report,page,notes
+2024-07-01,2024-12-31,half-yearly,total_notifications,all,,595,count,NDB report Jul–Dec 2024,7,Source categories below sum to 586; 9 not attributed in Chart 5
+2024-07-01,2024-12-31,half-yearly,breaches_by_source,malicious_or_criminal_attack,,404,count,NDB report Jul–Dec 2024,9,
+2024-07-01,2024-12-31,half-yearly,breaches_by_source,human_error,,170,count,NDB report Jul–Dec 2024,9,
+2024-07-01,2024-12-31,half-yearly,breaches_by_source,system_fault,,12,count,NDB report Jul–Dec 2024,9,
+2024-07-01,2024-12-31,half-yearly,malicious_breakdown,cyber_incident,,247,count,NDB report Jul–Dec 2024,10,
+2024-07-01,2024-12-31,half-yearly,malicious_breakdown,social_engineering_or_impersonation,,115,count,NDB report Jul–Dec 2024,10,
+2024-07-01,2024-12-31,half-yearly,malicious_breakdown,rogue_employee_or_insider,,27,count,NDB report Jul–Dec 2024,10,
+2024-07-01,2024-12-31,half-yearly,malicious_breakdown,theft_of_paperwork_or_storage_device,,15,count,NDB report Jul–Dec 2024,10,
+2024-07-01,2024-12-31,half-yearly,cyber_incident_breakdown,phishing,,84,count,NDB report Jul–Dec 2024,11,OAIC label: phishing (compromised credentials)
+2024-07-01,2024-12-31,half-yearly,cyber_incident_breakdown,ransomware,,60,count,NDB report Jul–Dec 2024,11,
+2024-07-01,2024-12-31,half-yearly,cyber_incident_breakdown,compromised_or_stolen_credentials_unknown_method,,51,count,NDB report Jul–Dec 2024,11,
+2024-07-01,2024-12-31,half-yearly,cyber_incident_breakdown,hacking,,23,count,NDB report Jul–Dec 2024,11,
+2024-07-01,2024-12-31,half-yearly,cyber_incident_breakdown,brute_force_attack,,16,count,NDB report Jul–Dec 2024,11,OAIC label: brute-force attack (compromised credentials)
+2024-07-01,2024-12-31,half-yearly,cyber_incident_breakdown,malware,,12,count,NDB report Jul–Dec 2024,11,
+2024-07-01,2024-12-31,half-yearly,cyber_incident_breakdown,other,,1,count,NDB report Jul–Dec 2024,11,
+2024-07-01,2024-12-31,half-yearly,top_sectors,health_service_providers,,121,count,NDB report Jul–Dec 2024,15,
+2024-07-01,2024-12-31,half-yearly,top_sectors,australian_government,,100,count,NDB report Jul–Dec 2024,15,
+2024-07-01,2024-12-31,half-yearly,top_sectors,finance,,54,count,NDB report Jul–Dec 2024,15,OAIC label: finance (incl. superannuation)
+2024-07-01,2024-12-31,half-yearly,top_sectors,legal_accounting_and_management_services,,36,count,NDB report Jul–Dec 2024,15,
+2024-07-01,2024-12-31,half-yearly,top_sectors,retail,,34,count,NDB report Jul–Dec 2024,15,
