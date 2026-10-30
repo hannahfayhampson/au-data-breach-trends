@@ -19,3 +19,20 @@ period_start,period_end,frequency,metric,category,subcategory,value,unit,source_
 2024-07-01,2024-12-31,half-yearly,top_sectors,finance,,54,count,NDB report Jul–Dec 2024,15,OAIC label: finance (incl. superannuation)
 2024-07-01,2024-12-31,half-yearly,top_sectors,legal_accounting_and_management_services,,36,count,NDB report Jul–Dec 2024,15,
 2024-07-01,2024-12-31,half-yearly,top_sectors,retail,,34,count,NDB report Jul–Dec 2024,15,
+2024-07-01,2024-12-31,half-yearly,time_to_notify,10_days_or_less,,29,percent,NDB report Jul–Dec 2024,14,Chart 12
+2024-07-01,2024-12-31,half-yearly,time_to_notify,11_to_20_days,,16,percent,NDB report Jul–Dec 2024,14,Chart 12
+2024-07-01,2024-12-31,half-yearly,time_to_notify,21_to_30_days,,26,percent,NDB report Jul–Dec 2024,14,Chart 12
+2024-07-01,2024-12-31,half-yearly,time_to_notify,over_30_days,,28,percent,NDB report Jul–Dec 2024,14,Chart 12
+2024-07-01,2024-12-31,half-yearly,time_to_notify,unknown,,1,percent,NDB report Jul–Dec 2024,14,Chart 12
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,malicious_or_criminal_attack,10_days_or_less,24,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,malicious_or_criminal_attack,11_to_20_days,16,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,malicious_or_criminal_attack,21_to_30_days,27,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,malicious_or_criminal_attack,over_30_days,33,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,human_error,10_days_or_less,40,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,human_error,11_to_20_days,16,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,human_error,21_to_30_days,27,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,human_error,over_30_days,16,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,system_fault,10_days_or_less,33,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,system_fault,11_to_20_days,33,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,system_fault,21_to_30_days,17,percent,NDB report Jul–Dec 2024,14,Chart 13
+2024-07-01,2024-12-31,half-yearly,time_to_notify_by_source,system_fault,over_30_days,17,percent,NDB report Jul–Dec 2024,14,Chart 13
