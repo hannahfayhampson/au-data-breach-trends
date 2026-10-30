@@ -9,6 +9,22 @@ Office of the Australian Information Commissioner (OAIC) Notifiable Data Breache
 
 Quarterly figures are combined into half-years during cleaning so every period compares fairly.
 
+## Coverage & known gaps
+
+| Period | Source | Notes |
+|---|---|---|
+| Feb–Mar 2018 | Quarterly statistics report | Scheme began **22 Feb 2018**, so this is ~6 weeks. Figures come from chart descriptions. |
+| Apr–Jun 2018 | Quarterly statistics report | Source of breaches published as **percentages only**. |
+| Jul 2018 – Jun 2024 | Quarterly, then half-yearly reports | Full detail. Source counts sum exactly to the total in every period. |
+| Jan–Jun 2023 | Half-yearly report | Malicious and system fault published as **percentages only** (human error count available). |
+| Jul–Dec 2024 | Half-yearly report | Source counts sum to 586 of 595: 9 breaches not attributed to a source. Includes time-to-identify/notify and sector-by-source detail. |
+| Jan–Jun 2025 | OAIC blog (no full report) | **Headline figures only.** Malicious + human error = 501 of 532; system fault not published. |
+| Jul–Dec 2025 | data.gov.au dataset (XLSX) | **Not yet added.** |
+
+Not every report breaks down every cyber incident method as a count (some give percentages only), so `cyber_incident_breakdown` has gaps in some periods. Gaps are left as missing rows rather than zeros.
+
+**Collection method:** Jul–Dec 2024 figures were read directly from the report. Other periods were extracted from the OAIC report web pages and checked by reconciling totals: source counts against total notifications, and malicious subcategories against the malicious total.
+
 ## `raw/oaic_ndb_raw.csv`
 
 Figures are entered by hand from each report, **one number per row** (a "long" or "tidy" format).
